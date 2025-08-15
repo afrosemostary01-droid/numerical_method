@@ -1,0 +1,59 @@
+1. Find the smallest number in a list using a loop
+        arr = [12, 4, 56, 2, 45, 1, 99]
+        small= arr[0]
+        
+        for num in arr:
+            if num < small:
+                small = num
+        
+        print("Smallest number is:", small)
+output:
+
+2. Reverse a string using a loop
+   
+        text = "Hello World"
+        rev_text = ""
+        
+        for ch in text:
+            rev_text = ch + rev_text
+        
+        print("Reversed string:", rev_text)
+
+output:
+
+3. Check Positive or Negative
+
+          num = int(input("Enter a number: "))
+          
+          if num > 0:
+              print("Positive")
+          elif num < 0:
+              print("Negative")
+          else:
+              print("Zero")
+
+output:
+
+4. Check Uppercase or Lowercase
+
+output:
+
+5. Calculate Student's Grade
+
+          marks = int(input("Enter marks (0–100): "))
+          if 90 <= marks <= 100:
+              grade = "A"
+          elif 80 <= marks <= 89:
+              grade = "B"
+          elif 70 <= marks <= 79:
+              grade = "C"
+          elif 60 <= marks <= 69:
+              grade = "D"
+          else:
+              grade = "F"
+          
+          print("Grade:", grade)
+
+output:
+          
+                
