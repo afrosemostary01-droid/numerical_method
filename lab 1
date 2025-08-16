@@ -7,7 +7,8 @@
                 small = num
         
         print("Smallest number is:", small)
-output:
+output:  Smallest number is: 1
+
 
 2. Reverse a string using a loop
    
@@ -19,7 +20,8 @@ output:
         
         print("Reversed string:", rev_text)
 
-output:
+output: Reversed string: dlroW olleH
+
 
 3. Check Positive or Negative
 
@@ -32,11 +34,23 @@ output:
           else:
               print("Zero")
 
-output:
+output: 5
+        Positive
+
 
 4. Check Uppercase or Lowercase
+       
+        ch = input("Enter a character: ")
+        
+        if 'A' <= ch <= 'Z':
+            print("Uppercase")
+        elif 'a' <= ch <= 'z':
+            print("Lowercase")
+        else:
+            print("Not a letter")
 
-output:
+output: h
+        Lowercase
 
 5. Calculate Student's Grade
 
@@ -54,6 +68,7 @@ output:
           
           print("Grade:", grade)
 
-output:
+output: 65
+        D
           
                 
